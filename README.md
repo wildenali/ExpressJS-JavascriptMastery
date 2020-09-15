@@ -34,3 +34,5 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 - Click `Send`
 - Cek Hasilnya di `Body` > `Pretty` bagian bawah postman
 - Cek Hasilnya pakai GET request, coba lagi step no 7
+
+9. Install UUID `$ npm install uuid`
