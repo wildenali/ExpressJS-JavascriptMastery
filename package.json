@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wildenali/ExpressJS-JavascriptMastery/issues"
   },
-  "homepage": "https://github.com/wildenali/ExpressJS-JavascriptMastery#readme"
+  "homepage": "https://github.com/wildenali/ExpressJS-JavascriptMastery#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
