@@ -8,3 +8,4 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 3. Create server file `index.js`
 4. How to run `$ node index.js`
 5. Install nodemon `$ npm install --save-dev nodemon`
+6. Config nodemon
