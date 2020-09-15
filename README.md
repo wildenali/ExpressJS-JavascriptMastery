@@ -12,3 +12,25 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 7. Setup GET in postman
 
 - test http://localhost:5000/api/movies
+
+8. CREATE, post data
+
+- Open postman
+- Pastikan pada POST request
+- Setup postman sebagai POST method
+- Masukkan `http://localhost:5000/users`
+- Pilih `Body`, setelah itu kemudian pilih `raw`
+- Ganti mode `text` jadi `JSON (application/json)`
+- Masukkan di raw tersebut
+
+```
+{
+	"firstName": "Ali",
+	"lastName": "Mm",
+	"age": 12
+}
+```
+
+- Click `Send`
+- Cek Hasilnya di `Body` > `Pretty` bagian bawah postman
+- Cek Hasilnya pakai GET request, coba lagi step no 7
