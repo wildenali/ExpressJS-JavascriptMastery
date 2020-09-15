@@ -11,7 +11,7 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 6. Config nodemon
 7. Setup GET in postman
 
-- test http://localhost:5000/api/movies
+- test `http://localhost:5000/users`
 
 8. CREATE, post data
 
@@ -36,3 +36,7 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 - Cek Hasilnya pakai GET request, coba lagi step no 7
 
 9. Install UUID `$ npm install uuid`
+10. GET by Id
+
+- Test `http://localhost:5000/users/7d166988-0f07-46e2-9a6a-4379d5d23385` <br/>
+  id di atas bisa diganti2, tergantung id yg tergenerate
