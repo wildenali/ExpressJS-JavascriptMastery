@@ -1,4 +1,5 @@
 import express from "express";
+import { v4 as uuidv4 } from "uuid";
 
 const router = express.Router();
 
@@ -16,16 +17,21 @@ const users = [
 ];
 
 // all routes in here are starting with /users
+// GET
 router.get("/", (req, res) => {
   console.log(users);
   res.send(users);
 });
 
+// CREATE
 router.post("/", (req, res) => {
   console.log("Post Route Reached");
   console.log(req.body);
   const user = req.body;
-  users.push(user);
+  const userId = uuidv4();
+  const userWithId = { ...user, id: userId };
+
+  users.push(userWithId);
   res.send(`User with the name ${user.firstName}`);
 });
 
