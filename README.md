@@ -47,3 +47,10 @@ Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://ww
 - Setup postman sebagai DELETE method
 - Test `http://localhost:5000/users/7261f847-1ed1-4c9b-b8c1-99eae46c4c0a` <br/>
   id di atas bisa diganti2, tergantung id yg tergenerate
+
+12. UPDATE user
+
+- Setup postman sebagai PATCH method
+- Test `http://localhost:5000/users/7261f847-1ed1-4c9b-b8c1-99eae46c4c0a` <br/>
+  id di atas bisa diganti2, tergantung id yg tergenerate
+- Isi body nya dengan firstName, lastName, and age
