@@ -1,0 +1,20 @@
+{
+  "name": "ExpressJS-JavascriptMastery",
+  "version": "1.0.0",
+  "description": "This tutorial from Javascript Mastery the title is Build a REST API with NodeJS and Express | CRUD API Tutorial<br/>\r Link tutorial -> [https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s](https://www.youtube.com/watch?v=l8WPWK9mS5M&t=244s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildenali/ExpressJS-JavascriptMastery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildenali/ExpressJS-JavascriptMastery/issues"
+  },
+  "homepage": "https://github.com/wildenali/ExpressJS-JavascriptMastery#readme"
+}
